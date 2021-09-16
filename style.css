@@ -9,13 +9,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-main {
+#main {
   margin: 50px auto;
 }
 
 #title {
   text-align: center;
   margin-bottom: 25px;
+  padding: 16px;
 }
 
 #short-desc {
@@ -35,6 +36,8 @@ li {
 }
 
 #image {
+  margin: auto;
+  display: block;
   max-width: 900px;
   width: 100%;
   margin-bottom: 4%;
@@ -86,6 +89,10 @@ ul li {
   }
 
   #quote {
+    font-size: 1.25rem;
+  }
+
+  #title {
     font-size: 1.25rem;
   }
 }
